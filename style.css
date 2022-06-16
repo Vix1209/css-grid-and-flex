@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+    padding: 30px;
+    width: fit-content;
+    overflow: hidden;
+}
+main{
+    background-color: hsl(0, 0%, 95%);
+    padding: 90px;
+    background-size: 100%;
+}
+
+.cars{
+    display:flex;
+    width: 100%;
+}
+
+div{
+    padding: 30px;
+    width: 100%;
+}
+
+header{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:x-large;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+p{
+    font-weight: 400;
+}
+
+.sedan{
+    background-color: hsl(31, 77%, 52%); 
+}
+
+.sedan p{
+    padding: 60px 0 120px 0;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.sedan button{
+    color: hsl(31, 77%, 52%);
+}
+
+.suv{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.suv p{
+    padding: 60px 0 120px 0;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.suv button{
+    color: hsl(184, 100%, 22%)
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.luxury p{
+    padding: 60px 0 120px 0;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.luxury button{
+    color: hsl(179, 100%, 13%);
+}
+
+footer{
+    text-align: center;
+}
+
+button{
+    width: 130px;
+    height: 40px;
+    border-radius: 50px ;
+    cursor: pointer;
+    border-color: white;
+}
+
+.sedan button:active{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border-color: white;
+}
+.suv button:active{
+    background-color: hsl(184, 100%, 22%, 1);
+    color: white;
+    border-color: white;
+}
+
+.luxury button:active{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border-color: white;
+}
